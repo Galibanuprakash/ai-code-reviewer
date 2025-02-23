@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Google AI API
-genai.configure(api_key="AIzaSyCFbnID7J4KnD-hoveRc37CEx_MV9eXUEk")
+genai.configure(api_key="your API key")
 
 # Function to analyze Python code
 def analyze_code(code):
